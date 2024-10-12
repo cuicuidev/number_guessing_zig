@@ -27,7 +27,7 @@ pub fn main() !void {
     const stdin = std.io.getStdIn().reader();
 
     // This is basically a print that does not require a tuple. Useful for when I don't need any formatting. Not sure if there is something else to it.
-    try stdout.writeAll("I just thought of a random number between 1 and 100, can you guess it?");
+    try stdout.writeAll("I just thought of a random number between 1 and 100, can you guess it?\n");
 
     // Here is the main loop. I will keep asking the user for an input until they get the number right.
     while (true) {
